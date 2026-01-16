@@ -2,3 +2,16 @@
     margin: 0;
     padding: 0;
 }
+
+/* Shared style */
+.heading-text {
+   font-family: "Raleway", sans-serif;
+   font-size: 3rem;
+}
+
+.paragraph-text{
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 370;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
