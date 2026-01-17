@@ -30,6 +30,21 @@
     background-color: #36774a;
 }
 
+.secondary-button{
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+}
+
+.secondary-button:hover{
+    background-color: white;
+    color: #469165;
+}
+
 /* header started */
 /* #nav{ */
     /* margin: 0 auto; */
@@ -70,6 +85,13 @@
     border: 1px solid black;
     height: auto;
     color: white;
+}
+
+#unique-button{
+   padding: .5rem 2rem;
+   background-color: #ffffff;
+   border-radius: 4rem;
+   color: #469165;
 }
 
 .banner-container h1{
