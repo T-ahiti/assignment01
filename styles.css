@@ -54,3 +54,31 @@
 .nav-menu ul li a:hover{
     color: #424e48;
 }
+
+/* banner started */
+#banner{
+    background-image: url('assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-container{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 4rem 0;
+    border: 1px solid black;
+    height: auto;
+    color: white;
+}
+
+.banner-container h1{
+    font-size: 4rem;
+    line-height: 4.3rem;
+}
+
+.banner-container p{
+    line-height: 2rem;
+    font-weight: 300;
+}
+
