@@ -92,6 +92,8 @@
    background-color: #ffffff;
    border-radius: 4rem;
    color: #469165;
+   font-weight: 500;
+   font-size: 1rem;
 }
 
 .banner-container h1{
@@ -104,3 +106,14 @@
     font-weight: 300;
 }
 
+.button-group{
+    display: flex;
+    justify-content: center;
+    gap: .6rem;
+}
+
+.btn1 , .btn2{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+} 
