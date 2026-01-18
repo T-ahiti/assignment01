@@ -131,15 +131,16 @@
     margin: 0 auto;
     padding: 4rem 0;
     text-align: center;
-    border: #36774a 1px solid;
+    /* border: #36774a 1px solid; */
 }
 
 .structure-header h1{
     font-size: 3rem;
+    margin-bottom: 2rem;
 }
 
-#structure p{
-    margin-top: 2rem;
+#structure p, .card p{
+    margin-top: 1.2rem;
     font-size: 1rem;
     color: #627382;
     font-weight: 340;
@@ -152,7 +153,9 @@
     margin-top: 2rem;
 }
 .card{
-   
+   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+   border-radius: 5px;
+   padding: 2rem 1rem .9rem 1rem;
 }
 
 .card-red{
@@ -162,4 +165,8 @@
     border-radius: 50%;
     border: none;
     padding: .5rem;
+}
+
+.card h3{
+    margin-top: 1rem;
 }
