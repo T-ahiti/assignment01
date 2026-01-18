@@ -131,8 +131,26 @@
     margin: 0 auto;
     padding: 4rem 0;
     text-align: center;
+    border: #36774a 1px solid;
 }
 
+.structure-header h1{
+    font-size: 3rem;
+}
+
+#structure p{
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #627382;
+    font-weight: 340;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 2rem;
+}
 .card{
    
 }
