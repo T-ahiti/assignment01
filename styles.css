@@ -182,5 +182,33 @@
 }
 
 .hero-img-container{
-    
+    width: 37.5rem;
+}
+
+.green-paragraph{
+    color: #30B868;  
+    margin-bottom: 1.3rem;
+}
+
+.hero-text-container h1{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    line-height: 3.5rem;
+}
+
+.hero-p{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    color: #627382;
+    font-weight: 340;
+}
+
+.hero-list-container{
+    list-style: none;
+}
+
+.hero-list-container li{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
 }
