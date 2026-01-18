@@ -212,3 +212,9 @@
     align-items: center;
     gap: .6rem;
 }
+
+.think-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem 0;    
+}
