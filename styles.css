@@ -231,3 +231,41 @@
 .think-container h1{
     margin-bottom: 1rem;
 }
+
+
+/* footer section */
+#footer{
+    background-color: #001931;
+    color: white;
+}
+
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem 0;   
+}
+
+.footer-first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons{
+    display: flex;
+    gap: 1rem;
+}
+
+#footer hr{
+    margin-top: 3rem;
+    border: 0.1px solid #62738263;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.7rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
