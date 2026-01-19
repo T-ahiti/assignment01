@@ -178,11 +178,7 @@
     padding: 4rem 0;
     display: flex;
     align-items: center;
-    gap: 2rem;
-}
-
-.hero-img-container{
-    width: 37.5rem;
+    gap: 3rem;
 }
 
 .green-paragraph{
@@ -190,17 +186,18 @@
     margin-bottom: 1.3rem;
 }
 
-.hero-text-container h1{
+.hero-text-container h1 , .think-container h1{
     font-size: 3rem;
     margin-bottom: 1.5rem;
     line-height: 3.5rem;
 }
 
-.hero-p{
+.hero-p , .think-container p{
     margin-bottom: 2rem;
     font-size: 1rem;
     color: #627382;
     font-weight: 340;
+    line-height: 1.6rem;
 }
 
 .hero-list-container{
@@ -213,8 +210,24 @@
     gap: .6rem;
 }
 
+/* think started */
+#think{
+    background-color: rgba(247, 246, 242, 1);
+    margin-bottom: 8rem;
+}
 .think-container{
     width: 80%;
     margin: 0 auto;
-    padding: 4rem 0;    
+    padding: 4rem 0;   
+    text-align: center;   
+}
+
+.think-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+
+.think-container h1{
+    margin-bottom: 1rem;
 }
